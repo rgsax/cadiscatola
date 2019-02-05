@@ -61,6 +61,7 @@ public class InitialWindow extends BorderPane {
 		box.setPadding(new Insets(10));
 		
 		this.setTop(box);
+		this.setCenter(new EmptyPane());
 		
 		BorderPane.setAlignment(box, Pos.TOP_CENTER);
 		

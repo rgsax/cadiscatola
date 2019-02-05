@@ -94,7 +94,7 @@ public class RefreshingTask extends ScheduledService<Void> {
 			Node pane = window.getCenter();
 			if(pane instanceof InfoPane && ((InfoPane)pane).getSharedSpace().equals(space)) {
 				((InfoPane)pane).stopSynchronization();
-				window.setCenter(new Pane());
+				window.setCenter(new EmptyPane());
 			}
 		}
 	}

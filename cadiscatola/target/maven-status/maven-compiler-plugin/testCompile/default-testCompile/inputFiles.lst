@@ -1,1 +1,4 @@
-/home/riccardo/git/cadiscatola/cadiscatola/src/test/java/cadiscatola/CloudStorageTest.java
+/home/riccardo/git/cadiscatola/cadiscatola/src/test/java/cadiscatola/CloudStorageTestSuite.java
+/home/riccardo/git/cadiscatola/cadiscatola/src/test/java/cadiscatola/LocalUtilsTest.java
+/home/riccardo/git/cadiscatola/cadiscatola/src/test/java/cadiscatola/CloudStorageUserTest.java
+/home/riccardo/git/cadiscatola/cadiscatola/src/test/java/cadiscatola/CloudStorageSharedSpaceTest.java

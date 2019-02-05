@@ -15,6 +15,12 @@ public class SynchronizeTask extends ScheduledService<Void>{
 	File sharedSpacePath;
 	User user;
 	
+	/**
+	 * Sincronizza periodicamente la cartella corrente con il server
+	 * 
+	 * @param sharedSpacePath
+	 * @param user
+	 */
 	public SynchronizeTask(File sharedSpacePath, User user) {
 		this.sharedSpacePath = sharedSpacePath;
 		this.user = user;

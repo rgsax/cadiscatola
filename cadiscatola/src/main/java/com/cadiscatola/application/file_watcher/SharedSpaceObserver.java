@@ -10,11 +10,16 @@ import com.cadiscatola.api.model.User;
 import com.cadiscatola.api.utils.LocalStorageUtils;
 import com.cadiscatola.api.wrapper.exceptions.InternalException;
 
+/**
+ * 
+ * Observer sulla cartella da monitorare
+ *
+ */
 public class SharedSpaceObserver extends FileAlterationObserver {
 	private static final long serialVersionUID = 1L;
 	
 	private User user;
-
+	
 	public SharedSpaceObserver(File monitoredFolder, User user) {
 		super(monitoredFolder, FileFilterUtils.notFileFilter(new PathFilter()));
 		this.user = user;

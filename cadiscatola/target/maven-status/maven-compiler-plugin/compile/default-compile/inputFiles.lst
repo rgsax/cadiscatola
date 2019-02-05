@@ -2,6 +2,7 @@
 /home/riccardo/git/cadiscatola/cadiscatola/src/main/java/com/cadiscatola/application/file_watcher/PathFilter.java
 /home/riccardo/git/cadiscatola/cadiscatola/src/main/java/com/cadiscatola/api/wrapper/ServerUtils.java
 /home/riccardo/git/cadiscatola/cadiscatola/src/main/java/com/cadiscatola/application/graphics/AppTray.java
+/home/riccardo/git/cadiscatola/cadiscatola/src/main/java/com/cadiscatola/application/graphics/EmptyPane.java
 /home/riccardo/git/cadiscatola/cadiscatola/src/main/java/com/cadiscatola/application/graphics/InfoPane.java
 /home/riccardo/git/cadiscatola/cadiscatola/src/main/java/com/cadiscatola/application/file_watcher/SharedSpaceObserver.java
 /home/riccardo/git/cadiscatola/cadiscatola/src/main/java/com/cadiscatola/api/utils/LocalStorageUtils.java

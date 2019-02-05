@@ -4,6 +4,12 @@ import java.io.File;
 
 import org.apache.commons.io.filefilter.AbstractFileFilter;
 
+/**
+ * 
+ * Filtro sulla cartella da osservare
+ * (Non prende le cartelle nascoste di Git)
+ *
+ */
 public class PathFilter extends AbstractFileFilter {
 	@Override
 	public boolean accept(File file) {

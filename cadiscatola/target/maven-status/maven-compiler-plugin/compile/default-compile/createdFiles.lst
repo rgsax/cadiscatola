@@ -1,4 +1,5 @@
 com/cadiscatola/api/utils/LocalStorageUtils.class
+com/cadiscatola/application/graphics/EmptyPane.class
 com/cadiscatola/application/graphics/SharedSpacesList.class
 com/cadiscatola/application/synchronizer/SynchronizeTask.class
 com/cadiscatola/api/utils/exceptions/PasswordMismatchException.class

@@ -8,6 +8,13 @@ import com.cadiscatola.api.utils.LocalStorageUtils;
 import com.cadiscatola.api.utils.exceptions.SharedSpaceDoesNotExistException;
 import com.cadiscatola.api.wrapper.exceptions.InternalException;
 
+/**
+ * 
+ * Dispatcher di {@link FileWatcherDispatcher}
+ * viene implementato con un FactoryMethod
+ * e un Singleton
+ *
+ */
 public class FileWatcherDispatcher {
 	private static FileWatcherDispatcher instance = null;
 	

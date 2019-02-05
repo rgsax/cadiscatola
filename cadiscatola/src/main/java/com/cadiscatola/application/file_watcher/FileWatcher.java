@@ -9,6 +9,12 @@ import com.cadiscatola.application.synchronizer.SynchronizeTask;
 
 import javafx.util.Duration;
 
+/**
+ * 
+ * Monitor delle cartelle da sincronizzare
+ * Fa uso di uno {@link SharedSpaceObserver}
+ *
+ */
 public class FileWatcher {
 	private FileAlterationMonitor monitor;
 	private SynchronizeTask synchronizer;

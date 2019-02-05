@@ -97,6 +97,7 @@ public class LocalUtilsTest {
 		LocalStorageUtils.downloadSharedSpace(z, v, f.getAbsolutePath());
 		
 		File new_file = new File(f, "a_file");
+		new_file.createNewFile();
 		LocalStorageUtils.updateSharedSpace(f.getAbsolutePath(), v);
 		try {
 			FileUtils.delete(f);

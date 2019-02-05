@@ -219,7 +219,7 @@ public class PermissionPane extends HBox {
 					
 					@Override
 					protected Void call() throws Exception {
-						collaborators = CloudStorageUtils.getSharedSPaceCollaborators(sharedSpace);
+						collaborators = CloudStorageUtils.getSharedSpaceCollaborators(sharedSpace);
 						
 						Platform.runLater(() -> {
 							ObservableList<String> users = FXCollections.observableArrayList();

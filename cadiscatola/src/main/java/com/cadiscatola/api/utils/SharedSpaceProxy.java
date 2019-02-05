@@ -21,7 +21,7 @@ public class SharedSpaceProxy extends SharedSpace{
 	@Override
 	public void addCollaborator(User user, Boolean canWrite) throws SharedSpaceDoesNotExistException, InternalException {
 		if(collaborators == null)
-			collaborators = CloudStorageUtils.getSharedSPaceCollaborators(this);
+			collaborators = CloudStorageUtils.getSharedSpaceCollaborators(this);
 		collaborators.put(user.getName(), canWrite);
 	}
 	
@@ -30,14 +30,14 @@ public class SharedSpaceProxy extends SharedSpace{
 	@Override
 	public Map<String, Boolean> getCollaborators() throws SharedSpaceDoesNotExistException, InternalException {
 		if(collaborators == null)
-			collaborators = CloudStorageUtils.getSharedSPaceCollaborators(this);
+			collaborators = CloudStorageUtils.getSharedSpaceCollaborators(this);
 		return collaborators;
 	}
 	
 	@Override
 	public void removeCollaborator(User user) throws SharedSpaceDoesNotExistException, InternalException {
 		if(collaborators == null)
-			collaborators = CloudStorageUtils.getSharedSPaceCollaborators(this);
+			collaborators = CloudStorageUtils.getSharedSpaceCollaborators(this);
 		
 		collaborators.remove(user.getName());
 	}

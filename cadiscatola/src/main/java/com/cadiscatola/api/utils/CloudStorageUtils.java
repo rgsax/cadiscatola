@@ -260,7 +260,7 @@ public class CloudStorageUtils {
 	 * @throws SharedSpaceDoesNotExistException
 	 * @throws InternalException
 	 */
-	public static Map<String, Boolean> getSharedSPaceCollaborators(SharedSpace sharedSpace) throws SharedSpaceDoesNotExistException, InternalException {
+	public static Map<String, Boolean> getSharedSpaceCollaborators(SharedSpace sharedSpace) throws SharedSpaceDoesNotExistException, InternalException {
 		Map<String, Boolean> collaborators = null;
 		
 		try {

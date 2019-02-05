@@ -14,7 +14,6 @@ import javafx.collections.ObservableList;
 import javafx.concurrent.ScheduledService;
 import javafx.concurrent.Task;
 import javafx.scene.Node;
-import javafx.scene.layout.Pane;
 
 public class RefreshingTask extends ScheduledService<Void> {
 	SharedSpacesList sharedSpacesList;
